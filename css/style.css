@@ -13,6 +13,12 @@
     display: table;
 }
 
+.btn{
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 15px;
+}
+
 /* header */
 
 /* nav */
@@ -45,15 +51,9 @@ li{
     margin-right: 30px;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: black;
-}
-
-.btn{
-    color: white;
-    background-color: #0061FF;
-    padding: 5px 15px;
 }
 
 #utente{
@@ -127,8 +127,7 @@ section.plans{
 }
 
 .box{
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding: 30px 0 20px 0; /* problema */
 }
 
 .checkbox{
@@ -145,6 +144,33 @@ section.plans{
     border: 5px solid #0161FF;
 }
 
+/* riga */
+
+.colonna{
+    width: 30%;
+    border: 1px solid lightgray;
+}
+
+.plan-type{
+    text-align: center; /* problema */
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.colonna span{
+    display: block;
+}
+
+span .btn {
+    text-decoration: none;
+}
+
+.small{
+    width: 33%;
+}
+
 /* footer */
 
 footer{
@@ -153,7 +179,9 @@ footer{
 
 /* colori */
 
-
+.lightgray{
+    color: lightgray;
+}
 
 /* debug */
 
