@@ -115,7 +115,35 @@ a.btn{
     bottom: -80px;
 }
 
+/* plans */
 
+section.plans{
+    margin: 10% 10% 5%;
+}
+
+.plans h2{
+    text-align: center;
+    font-size: 53px;
+}
+
+.box{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.checkbox{
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.checked{
+    border: 5px solid #0161FF;
+}
 
 /* footer */
 
