@@ -127,7 +127,7 @@ section.plans{
 }
 
 .box{
-    padding: 30px 0 20px 0; /* problema */
+    padding: 30px 0 20px 0; 
 }
 
 .checkbox{
@@ -152,11 +152,29 @@ section.plans{
 }
 
 .plan-type{
-    text-align: center; /* problema */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container-text{
+    padding: 20px;
+}
+
+.container-text span.text{
+    padding: 20px 0;
+}
+
+h3{
+    line-height: 40px;
 }
 
 .bold{
     font-weight: bold;
+}
+
+.small-txt{
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .colonna span{
@@ -186,7 +204,6 @@ footer{
 /* debug */
 
 .plans{
-    height: 500px;
     background-color: yellow;
 }
 
