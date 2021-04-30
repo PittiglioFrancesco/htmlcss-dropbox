@@ -24,6 +24,8 @@
 nav{
     position: fixed;
     z-index: 1;
+    height: 60px;
+    background-color: whitesmoke;
 }
 
 .logo{
@@ -76,6 +78,7 @@ a{
     padding: 5%;
     position: relative;
     background-color: #B4D0E8;
+    height: 821px;
 }
 
 h1{
@@ -125,15 +128,6 @@ footer{
 
 
 /* debug */
-
-nav{
-    height: 60px;
-    background-color: whitesmoke;
-}
-
-.jumbotron{
-    height: 780px;
-}
 
 .plans{
     height: 500px;
