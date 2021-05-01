@@ -40,13 +40,13 @@ nav{
     float: left;
 }
 
-ul{
+.clearfix ul{
     display: inline-block;
     list-style: none;
     margin: 20px;
 }
 
-li{
+.clearfix li{
     display: inline-block;
     margin-right: 30px;
 }
@@ -189,6 +189,72 @@ span .btn {
     width: 33%;
 }
 
+hr.small{
+    margin: 20px 0;
+}
+
+.checklist{
+    list-style-type: "\2713";
+    list-style: limegreen;
+}
+
+.sx li.simbolo1{
+    list-style: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/person-vflwJfwxi.svg");
+}
+
+.colonna li.simbolo2{
+    list-style: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/white-folder-vflTSRtFt.svg");
+}
+
+.colonna li.simbolo3{
+    list-style: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/pencil-vfl0feoul.svg");
+}
+
+.colonna ul{
+    padding-left: 20px;
+}
+
+.middle{
+    margin: 0 4.6%;
+}
+
+div.colonna{
+    display: inline-block;
+}
+
+.middle li.simbolo1, .dx li.simbolo1{
+    list-style: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/person-plus-vflE1WIGl.svg");
+}
+
+.sx .plan-type::before{
+    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/person-vflwJfwxi.svg");
+    padding: 5px;
+}
+
+.middle .plan-type::before, .dx .plan-type::before{
+    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/business-vflwT7XWp.svg");
+    padding: 5px;
+}
+    
+
+/* riga 2 */
+
+.riga2{
+    margin: 50px 0;
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgray;
+}
+
+.riga2 .team-text::before{
+    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/business-vflwT7XWp.svg");
+}
+
+.team-text{
+    text-align: center;
+    padding: 10px 0;
+}
+
 /* footer */
 
 footer{
@@ -202,10 +268,6 @@ footer{
 }
 
 /* debug */
-
-.plans{
-    background-color: yellow;
-}
 
 .contacts{
     height: 500px;
