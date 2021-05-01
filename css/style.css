@@ -250,9 +250,37 @@ div.colonna{
     content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/business-vflwT7XWp.svg");
 }
 
-.team-text{
+.team-pt1{
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+}
+
+.enterprise{
+    padding: 20px;
+    float: left;
+}
+
+.enterprise span{
+    display: block;
+}
+
+.enterprise span{
+    line-height: 40px;
+}
+
+.uff-ven{
+    float: right;
+    padding: 20px;
+}
+
+.uff-ven a{
+    text-decoration: none;
+    padding: 10px 30px
+}
+
+.box-bottom span.small{
+    font-size: 10px;
+    padding:  0 20px;
 }
 
 /* footer */
