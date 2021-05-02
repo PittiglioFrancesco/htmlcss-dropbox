@@ -164,7 +164,7 @@ section.plans{
     padding: 20px 0;
 }
 
-h3{
+.colonna h3{
     line-height: 40px;
 }
 
@@ -318,6 +318,47 @@ section.contacts{
     text-decoration: none;
 }
 
+/* business */
+
+.business{
+    margin: 5% 10%;
+}
+
+.business h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.column{
+    width: 30%;
+    margin: 5% 0;
+    float: left;
+}
+
+.column img{
+    width: 100%;
+}
+
+.column h3{
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.column p{
+    line-height: 25px;
+}
+
+p a{
+    color: black;
+}
+
+p a:hover{
+    text-decoration: none;
+}
+
+.central{
+    margin: 5% 5%;
+}
 
 /* footer */
 
@@ -332,11 +373,6 @@ footer{
 }
 
 /* debug */
-
-.business{
-    height: 500px;
-    background-color: green;
-}
 
 .teams{
     height: 500px;
