@@ -283,6 +283,42 @@ div.colonna{
     padding:  0 20px;
 }
 
+/* contacts */
+
+section.contacts{
+    margin: 50px 10%;
+}
+
+.left-img{
+    width: 50%;
+    float: left;
+    margin-right: 70px;
+}
+
+.team-txt{
+    width: 40%;
+    padding: 50px 0;
+    float: left;
+}
+
+.team-txt h3{
+    padding-bottom: 20px;
+}
+
+.team-txt span{
+    line-height: 1.6;
+}
+
+.team-txt .btn{
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+
 /* footer */
 
 footer{
@@ -296,11 +332,6 @@ footer{
 }
 
 /* debug */
-
-.contacts{
-    height: 500px;
-    background-color: red;
-}
 
 .business{
     height: 500px;
