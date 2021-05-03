@@ -97,15 +97,15 @@ h1{
 a.btn{
     display: inline-block;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .annulla{
     font-size: 14px;
 }
 
-.arrow{
+span.arrow{
     font-size: 80px;
-    padding-top: 30px;
 }
 
 .img-absolute{
@@ -360,6 +360,54 @@ p a:hover{
     margin: 5% 5%;
 }
 
+/* teams */
+
+.zona-pre-square{
+    margin: 0 10%;
+    padding-bottom: 5%;
+}
+
+.zona-pre-square h2{
+    padding-bottom: 40px;
+    max-width: 329px;
+}
+
+.main-zona-square div{
+    display: inline-block;
+}
+
+.float{
+    float: left;
+}
+
+.square{
+    height: 221.25px;
+    width: 221.25px;
+}
+
+.middle-square-zone{
+    width: 442.5px;
+    height: 442.5px;
+    background-color: #F5F5F5;
+    padding: 50px;
+} 
+
+.middle-square-zone .info-design{
+    width: 50%;
+}
+
+.middle-square-zone p{
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.img-square{
+    width: 100%;
+    padding: 50px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
 /* footer */
 
 footer{
@@ -372,12 +420,39 @@ footer{
     color: lightgray;
 }
 
-/* debug */
-
-.teams{
-    height: 500px;
-    background-color: pink;
+.bgc-lightgreen{
+    background-color: #A1D39B;
 }
+
+.bgc-wine{
+    background-color: #61092B;
+}
+
+.bgc-cyan{
+    background-color: #0093CE;
+}
+
+.bgc-red{
+    background-color: #FF1B1C;
+}
+
+.bgc-darkred{
+    background-color: #D5011F;
+}
+
+.bgc-lightblue{
+    background-color: #B4D0E8;
+}
+
+.bgc-darkblue{
+    background-color: #0D2381;
+}
+
+.bgc-yellow{
+    background-color: #FFD730;
+}
+
+/* debug */
 
 .faq{
     height: 500px;
