@@ -482,13 +482,53 @@ p.hide a{
 /* footer */
 
 footer{
+    padding: 100px 100px 150px;
     background-color: #000;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0 50px;
+    vertical-align: top;
+}
+
+footer ul .bold{
+    line-height: 50px;
+}
+
+footer li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+footer li a:hover{
+    text-decoration: underline;
+}
+
+.extrasmall{
+    width: 10%;
+    margin: 100px 0 50px 50px;
+}
+
+.mondo{
+    filter: invert(1);
+}
+
+span.gray{
+    margin-left: 27px;
 }
 
 /* colori */
 
 .lightgray{
     color: lightgray;
+}
+
+.gray{
+    color: gray;
 }
 
 .bgc-lightgreen{
@@ -522,10 +562,4 @@ footer{
 
 .bgc-yellow{
     background-color: #FFD730;
-}
-
-/* debug */
-
-footer{
-    height: 600px;
 }
