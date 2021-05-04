@@ -28,26 +28,32 @@
 }
 
 nav{
+    background-color: whitesmoke;
+
     position: fixed;
     z-index: 1;
+
     height: 60px;
-    background-color: whitesmoke;
 }
 
 .logo{
-    width: 10%;
-    margin: 15px 30px 15px 20px;
     float: left;
+
+    margin: 15px 30px 15px 20px;
+    width: 10%;
 }
 
 .clearfix ul{
     display: inline-block;
-    list-style: none;
+    
+
     margin: 20px;
+    list-style: none;
 }
 
 .clearfix li{
     display: inline-block;
+
     margin-right: 30px;
 }
 
@@ -58,8 +64,10 @@ nav a{
 
 #utente{
     background-color: rgb(97, 8, 43);
+
     border-radius: 50%;
     padding: 10px;
+
     color: white;
 }
 
@@ -74,11 +82,13 @@ nav a{
 /* .jumbotron */
 
 .jumbotron{
-    width: 100%;
-    padding: 5%;
-    position: relative;
     background-color: #B4D0E8;
+
+    position: relative;
+
+    width: 100%;
     height: 821px;
+    padding: 5%;
 }
 
 h1{
@@ -89,18 +99,24 @@ h1{
 
 .phrase{
     max-width: 28%;
-    line-height: 1.6;
+
     margin: 30px 0;
+
+    line-height: 1.6;
     font-size: 20px;
 }
 
 a.btn{
     display: inline-block;
+
     margin-bottom: 10px;
+
     text-decoration: none;
 }
 
 .annulla{
+    padding-bottom: 50px;
+
     font-size: 14px;
 }
 
@@ -110,9 +126,10 @@ span.arrow{
 
 .img-absolute{
     position: absolute;
-    width: 65%;
     right: 20px;
     bottom: -80px;
+
+    width: 65%;
 }
 
 /* plans */
@@ -131,8 +148,9 @@ section.plans{
 }
 
 .checkbox{
-    display: inline-block;
     background-color: whitesmoke;
+
+    display: inline-block;
     width: 20px;
     height: 20px;
     border: 1px solid lightgray;
@@ -227,13 +245,15 @@ div.colonna{
 }
 
 .sx .plan-type::before{
-    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/person-vflwJfwxi.svg");
     padding: 5px;
+
+    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/person-vflwJfwxi.svg");
 }
 
 .middle .plan-type::before, .dx .plan-type::before{
-    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/business-vflwT7XWp.svg");
     padding: 5px;
+
+    content: url("https://cfl.dropboxstatic.com/static/images/business/bermuda/icons/business-vflwT7XWp.svg");
 }
     
 
@@ -251,13 +271,15 @@ div.colonna{
 }
 
 .team-pt1{
-    text-align: center;
     padding: 10px;
+
+    text-align: center;
 }
 
 .enterprise{
-    padding: 20px;
     float: left;
+
+    padding: 20px;
 }
 
 .enterprise span{
@@ -270,17 +292,20 @@ div.colonna{
 
 .uff-ven{
     float: right;
+
     padding: 20px;
 }
 
 .uff-ven a{
+    padding: 10px 30px;
+
     text-decoration: none;
-    padding: 10px 30px
 }
 
 .box-bottom span.small{
-    font-size: 10px;
     padding:  0 20px;
+
+    font-size: 10px;
 }
 
 /* contacts */
@@ -290,15 +315,17 @@ section.contacts{
 }
 
 .left-img{
-    width: 50%;
     float: left;
+
     margin-right: 70px;
+    width: 50%;
 }
 
 .team-txt{
-    width: 40%;
-    padding: 50px 0;
     float: left;
+
+    padding: 50px 0;
+    width: 40%;
 }
 
 .team-txt h3{
@@ -309,10 +336,12 @@ section.contacts{
     line-height: 1.6;
 }
 
-.team-txt .btn{
+.team-txt .btn{    
+    background-color: white;
+
     margin-top: 40px;
     padding: 10px 20px;
-    background-color: white;
+
     border: 1px solid black;
     color: black;
     text-decoration: none;
@@ -325,14 +354,17 @@ section.contacts{
 }
 
 .business h2{
-    text-align: center;
     padding-bottom: 5%;
+
+    text-align: center;
 }
 
 .column{
-    width: 30%;
-    margin: 5% 0;
     float: left;
+
+    margin: 5% 0;
+
+    width: 30%;
 }
 
 .column img{
@@ -340,8 +372,9 @@ section.contacts{
 }
 
 .column h3{
-    line-height: 30px;
     padding: 20px 0;
+
+    line-height: 30px;
 }
 
 .column p{
@@ -369,6 +402,7 @@ p a:hover{
 
 .zona-pre-square h2{
     padding-bottom: 40px;
+
     max-width: 329px;
 }
 
@@ -394,10 +428,12 @@ p a:hover{
 }
 
 .middle-square-zone{
+    background-color: #F5F5F5;
+
+    padding: 50px;
+
     width: 34vw;
     height: 442.5px;
-    background-color: #F5F5F5;
-    padding: 50px;
 } 
 
 .middle-square-zone .info-design{
@@ -405,13 +441,15 @@ p a:hover{
 }
 
 .middle-square-zone p{
-    line-height: 20px;
     padding-bottom: 30px;
+
+    line-height: 20px;
 }
 
 .img-square{
-    width: 100%;
     padding: 100px 50px;
+
+    width: 100%;
     filter: invert(1);
 }
 
@@ -424,112 +462,31 @@ p a:hover{
 }
 
 .inner{
-    margin: 0 10%;
     position: relative;
+
+    margin: 0 10%;
 }
 
 .inner h2{
+    padding: 150px 0;
+
     max-width: 800px;
     font-size: 50px;
-    padding: 150px 0;
 }
 
 .inner a{
+    background-color: white;
+
     position: absolute;
     right: 0;
     bottom: 200px;
-    color: black;
-    background-color: white;
+
     padding: 10px 20px;
+
+    color: black;
 }
 
-/* FAQ */
-
-.faq{
-    margin: 100px 10%;
-}
-
-.faq h2{
-    font-size: 40px;
-    padding: 50px 0;
-}
-
-.domanda {
-    position: relative;
-    padding: 30px 0;
-}
-
-.domanda p{
-    text-align: left;
-    padding-bottom: 20px;
-}
-
-.domanda .dropdown{
-    position: absolute;
-    right: 20px;
-}
-
-p.hide{
-    line-height: 25px;
-    max-width: 70%;
-    padding-bottom: 30px;
-}
-
-p.hide a{
-    color: lightgray;
-}
-
-/* footer */
-
-footer{
-    padding: 100px 100px 150px;
-    background-color: #000;
-    color: white;
-}
-
-footer ul{
-    list-style: none;
-    display: inline-block;
-    padding: 0 50px;
-    vertical-align: top;
-}
-
-footer ul .bold{
-    line-height: 50px;
-}
-
-footer li a{
-    color: white;
-    text-decoration: none;
-    line-height: 30px;
-}
-
-footer li a:hover{
-    text-decoration: underline;
-}
-
-.extrasmall{
-    width: 10%;
-    margin: 100px 0 50px 50px;
-}
-
-.mondo{
-    filter: invert(1);
-}
-
-span.gray{
-    margin-left: 27px;
-}
-
-/* colori */
-
-.lightgray{
-    color: lightgray;
-}
-
-.gray{
-    color: gray;
-}
+/* colori riquadri */
 
 .bgc-lightgreen{
     background-color: lightgreen;
@@ -562,4 +519,100 @@ span.gray{
 
 .bgc-yellow{
     background-color: #FFD730;
+}
+
+/* FAQ */
+
+.faq{
+    margin: 100px 10%;
+}
+
+.faq h2{
+    padding: 50px 0;
+
+    font-size: 40px;
+}
+
+.domanda {
+    position: relative;
+
+    padding: 30px 0;
+}
+
+.domanda p{
+    padding-bottom: 20px;
+
+    text-align: left;
+}
+
+.domanda .dropdown{
+    position: absolute;
+    right: 20px;
+}
+
+p.hide{
+    padding-bottom: 30px;
+
+    max-width: 70%;
+
+    line-height: 25px;
+}
+
+p.hide a{
+    color: lightgray;
+}
+
+/* footer */
+
+footer{
+    background-color: #000;
+
+    padding: 100px 100px 150px;
+    color: white;
+}
+
+footer ul{
+    padding: 0 50px;
+
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer ul .bold{
+    line-height: 50px;
+}
+
+footer li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+footer li a:hover{
+    text-decoration: underline;
+}
+
+.extrasmall{
+    margin: 100px 0 50px 50px;
+
+    width: 10%;
+}
+
+.mondo{
+    filter: invert(1);
+}
+
+span.gray{
+    margin-left: 27px;
+}
+
+/* colori */
+
+.lightgray{
+    color: lightgray;
+}
+
+.gray{
+    color: gray;
 }
