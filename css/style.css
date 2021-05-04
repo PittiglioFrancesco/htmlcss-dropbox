@@ -443,6 +443,42 @@ p a:hover{
     padding: 10px 20px;
 }
 
+/* FAQ */
+
+.faq{
+    margin: 100px 10%;
+}
+
+.faq h2{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.domanda {
+    position: relative;
+    padding: 30px 0;
+}
+
+.domanda p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.domanda .dropdown{
+    position: absolute;
+    right: 20px;
+}
+
+p.hide{
+    line-height: 25px;
+    max-width: 70%;
+    padding-bottom: 30px;
+}
+
+p.hide a{
+    color: lightgray;
+}
+
 /* footer */
 
 footer{
@@ -489,11 +525,6 @@ footer{
 }
 
 /* debug */
-
-.faq{
-    height: 500px;
-    background-color: blue;
-}
 
 footer{
     height: 600px;
