@@ -372,6 +372,10 @@ p a:hover{
     max-width: 329px;
 }
 
+.main-zona-square{
+    width: 100vw;
+}
+
 .main-zona-square div{
     display: inline-block;
 }
@@ -380,20 +384,24 @@ p a:hover{
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 .square{
     height: 221.25px;
-    width: 221.25px;
+    width: 16.5vw;
 }
 
 .middle-square-zone{
-    width: 442.5px;
+    width: 34vw;
     height: 442.5px;
     background-color: #F5F5F5;
     padding: 50px;
 } 
 
 .middle-square-zone .info-design{
-    width: 50%;
+    width: 34%;
 }
 
 .middle-square-zone p{
@@ -403,9 +411,12 @@ p a:hover{
 
 .img-square{
     width: 100%;
-    padding: 50px;
-    vertical-align: middle;
+    padding: 100px 50px;
     filter: invert(1);
+}
+
+.left-square-zone, .right-square-zone{
+    max-width: 33vw;
 }
 
 /* footer */
@@ -421,7 +432,8 @@ footer{
 }
 
 .bgc-lightgreen{
-    background-color: #A1D39B;
+    background-color: lightgreen;
+    border: 10px solid #A1D39B;
 }
 
 .bgc-wine{
