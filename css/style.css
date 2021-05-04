@@ -419,6 +419,30 @@ p a:hover{
     max-width: 33vw;
 }
 
+.prova{
+    background-color: #B4D0E8;
+}
+
+.inner{
+    margin: 0 10%;
+    position: relative;
+}
+
+.inner h2{
+    max-width: 800px;
+    font-size: 50px;
+    padding: 150px 0;
+}
+
+.inner a{
+    position: absolute;
+    right: 0;
+    bottom: 200px;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+}
+
 /* footer */
 
 footer{
